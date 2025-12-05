@@ -24,6 +24,7 @@ which you can replace with the following POST-request to `/rest/print`:
 {
     printer:"printer id",
     label:"id of the label",
+    job_id:"optional",
     data : {
       sometext: "hello world"
     }
